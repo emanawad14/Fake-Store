@@ -1,0 +1,28 @@
+.card
+{
+    button{
+        transform: translateY(100%);
+        transition: all .3s;
+        opacity: 0;
+    }
+    &:hover{
+       
+        button{
+            transform: translateY(0);
+            opacity: 1;
+    
+        }
+    }
+}
+
+.card
+{
+    transition: all .4s;
+    &:hover
+    {
+        border: 3px solid #3a5a40;
+        cursor: pointer;
+        
+        
+    }
+}

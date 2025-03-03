@@ -1,0 +1,26 @@
+<section class="py-10 flex justify-center">
+    <div class="w-full max-w-4xl px-4">
+        <h2 class="text-center text-[40px] text-[#84a59d] font-bold mt-4 my-4">Details Of Products</h2>
+       
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 items-center text-center lg:text-left">
+            <div class="flex justify-center">
+                <img class="w-full max-w-xs md:max-w-sm shadow rounded p-7 card" 
+                     [src]="SpecificProduct.image" alt="">
+            </div>
+            <div>
+                <h3 class="mb-3 text-[30px] font-bold tracking-tight text-[#3a5a40] capitalize">
+                    {{SpecificProduct.category}}
+                </h3>
+                <h3 class="mb-3 text-[25px] font-bold tracking-tight text-[#84a59d]">
+                    {{SpecificProduct.title}}
+                </h3>
+                <p class="mb-6 font-light text-[#ababaa]">
+                    {{SpecificProduct.description}}
+                </p>
+                <span class="mb-6 font-bold text-[26px] text-[#f6bd60]">
+                    {{SpecificProduct.price}}
+                </span>
+            </div>
+        </div>
+    </div>
+</section>

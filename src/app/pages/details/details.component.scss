@@ -1,0 +1,11 @@
+.card
+{
+    transition: all .4s;
+    &:hover
+    {
+        border: 3px solid #3a5a40;
+        cursor: pointer;
+       
+        
+    }
+}
